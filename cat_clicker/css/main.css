@@ -1,0 +1,27 @@
+body {
+	background: #E9E3B4;
+}
+
+.container {
+	margin-top: 7%;
+}
+
+ul {
+	margin-top: 50px;
+}
+li.btn {
+	display: block;
+	margin-bottom: 5px;
+}
+
+img {
+	border-radius: 10%;
+}
+
+p {
+	font-size: 1.3em;
+	font-family: monospace;
+	text-align: center;
+	margin: 40px auto 0 30px;
+
+}
