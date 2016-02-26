@@ -7,7 +7,7 @@ body {
 }
 
 ul {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 li.btn {
 	display: block;
@@ -24,4 +24,13 @@ p {
 	text-align: center;
 	margin: 40px auto 0 30px;
 
+}
+
+#toggleAdminBtn {
+	margin: 10px 0 10px 120px;
+	text-align: center;
+}
+
+#admin {
+	margin: 10px 0 10px 30px;
 }

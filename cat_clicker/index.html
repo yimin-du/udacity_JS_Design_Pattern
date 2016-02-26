@@ -11,18 +11,23 @@
   	<div class="container">
   		<div class="row">
   			<div class="col-sm-4">
-	  			<ul> 
-		  			<li id = "cat_need_hair" class="btn btn-info">Cat needs a hair cut</li>
-		  			<li id = "cat_playing_ball" class="btn btn-info">Cat playing ball game</li>
-		  			<li id = "cats_in_cups" class="btn btn-info">Cats in cups</li>
-		  			<li id = "cats_wedding" class="btn btn-info">Cats Wedding</li>
-		  			<li id = "queen_cat" class="btn btn-info">Queen Cat</li>
+	  			<ul id="catList"> 
+
 		  		</ul>
 		  		<p id="message"></p>
+          <button class="btn btn-info" id="toggleAdminBtn">Show Admin</button>
+          <div id="admin">
+            <label>Cat Name</label>
+            <input id="cat-name-input"/>
+            <label>Click Count</label>
+            <input id="click-count-input"/>
+            <button class="btn btn-info" id="saveChangeBtn">Save</button>
+
+          </div>
   			</div>
   			<div class="col-sm-8">
   				<div>
-  					<img src="img/cats_wedding.jpg"></img>
+  					<img id="catImg" src="img/cats_wedding.jpg"></img>
   				</div>
   			</div>
   		</div>
